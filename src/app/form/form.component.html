@@ -1,0 +1,19 @@
+<form class="container" [formGroup]="componentsForm" (ngSubmit)="submitForm()">
+  <p> <b> 1) Select an existing component:</b> </p>
+  <select class="mb-3" formControlName="component">
+    <option *ngFor="let c of list" [ngValue]="c">
+      {{ c.title }}
+    </option>
+  </select>
+  <p> <b>2) Or add a new one:</b> </p>
+  <div class="form-group mb-3">
+
+    <input formControlName="title" type="text" class="form-control" id="title" placeholder="Title">
+  </div>
+  <div class="form-group mb-3">
+
+    <input formControlName="desc" type="text" class="form-control" id="desc" placeholder="Description">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <button [routerLink]="['/list']" type="button" class="btn btn-light"> Zurück zur Liste</button>
+</form>

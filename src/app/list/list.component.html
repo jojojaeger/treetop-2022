@@ -1,0 +1,10 @@
+<div class="container">
+  <button class="btn btn-primary mb-2" [routerLink]="['/new']"> Add Component </button>
+  <div class="list-group">
+    <a *ngFor="let component of list " class="list-group-item" [routerLink]="[component.id]">
+      <span>{{ component.title }} </span>
+      <span class="text-secondary">{{ component.id }}</span>
+    </a>
+    <p *ngIf="list && !list.length">Es wurden noch keine Komponenten hinzugefügt</p>
+  </div>
+</div>

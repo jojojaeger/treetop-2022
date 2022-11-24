@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Clinician Consultation",
+    "description": "Review of a patient's plan of care or collaborative discussion of specific aspects of a patient's risks and needs"
+  },
+  {
+    "id": 2,
+    "title": "Transportation",
+    "description": "Transport patient to nearby hospital"
+  },
+  {
+    "id": 3,
+    "title": "Prescribe medication",
+    "description": "Prescribe medication to patient"
+  }
+]
