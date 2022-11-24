@@ -25,6 +25,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 When adding Treetop rules, the error messages should ideally show up at the same moment the error appears, so the user has to change to solve it right away. Also Window Pop-Ups should be avoided as it interrupts the workflow.  
 
 Example: 
+
 ![grafik](https://user-images.githubusercontent.com/65357373/203859844-fe5f6657-37b5-4ec8-b4f2-7af360f2f379.png)
 
 
