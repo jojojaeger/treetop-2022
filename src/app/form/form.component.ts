@@ -32,14 +32,15 @@ export class FormComponent implements OnInit {
 
 
     if (this.componentsForm.value.component != null) {
-      this.c = new TreeTopComponent(this.cs.list.length + 1, this.componentsForm.value.component.title, this.componentsForm.value.component.desc)
+      console.log(this.componentsForm.value.component)
+      this.c = new TreeTopComponent(this.cs.list.length + 1, this.componentsForm.value.component.title, this.componentsForm.value.component.description)
 
     }
     else {
       this.c = new TreeTopComponent(this.cs.list.length + 1, this.componentsForm.value.title, this.componentsForm.value.desc)
     }
     this.cs.addToList(this.c)
-    this.router.navigate(['../list'])
+    this.router.navigate(['../list', this.c.id]);
 
   }
 

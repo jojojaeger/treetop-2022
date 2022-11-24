@@ -1,11 +1,11 @@
 <form class="container" [formGroup]="componentsForm" (ngSubmit)="submitForm()">
-  <p> <b> 1) Select an existing component:</b> </p>
+  <p> <b> a) Select an existing component:</b> </p>
   <select class="mb-3" formControlName="component">
     <option *ngFor="let c of list" [ngValue]="c">
-      {{ c.title }}
+      {{ c.title + " | code: " + c.id }}
     </option>
   </select>
-  <p> <b>2) Or add a new one:</b> </p>
+  <p> <b>b) Or add a new one:</b> </p>
   <div class="form-group mb-3">
 
     <input formControlName="title" type="text" class="form-control" id="title" placeholder="Title">

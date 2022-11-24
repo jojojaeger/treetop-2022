@@ -6,12 +6,12 @@
   },
   {
     "id": 2,
-    "title": "Transportation",
-    "description": "Transport patient to nearby hospital"
+    "title": "Prescribe medication",
+    "description": "Prescribe medication to patient"
   },
   {
     "id": 3,
-    "title": "Prescribe medication",
-    "description": "Prescribe medication to patient"
+    "title": "Retransportation",
+    "description": "Retransport patient to critical care unit"
   }
 ]
