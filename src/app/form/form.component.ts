@@ -24,11 +24,12 @@ export class FormComponent implements OnInit {
     this.componentsForm = this.fb.group({
       title: this.c.title,
       desc: this.c.description,
-      component: TreeTopComponent,
+      component: null,
     });
   }
 
   submitForm() {
+
 
     if (this.componentsForm.value.component != null) {
       this.c = new TreeTopComponent(this.cs.list.length + 1, this.componentsForm.value.component.title, this.componentsForm.value.component.desc)
