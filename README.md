@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
+## Application
+
 It is splitted into three main components: 
 - list for showing all the components
 - detail view for showing the details of one component 
