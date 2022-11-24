@@ -26,9 +26,6 @@ When adding Treetop rules, the error messages should ideally show up at the same
 
 Example: 
 
-New Rule: _______________________________________ 
-`#RRGGBB`!Operands must be of the correct type,
-
 
 
 
