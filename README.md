@@ -29,4 +29,7 @@ Example:
 New Rule: _______________________________________ !
 Operands must be of the correct type,
 
+![grafik](https://user-images.githubusercontent.com/65357373/203782030-7a6568d7-dbb8-4943-b9f6-b300af5ef4c2.png)
+
+
 
