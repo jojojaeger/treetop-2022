@@ -1,24 +1,22 @@
 # Treetop Challenge 1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
-It is splitted into four components: 
+
+It is splitted into three main components: 
 - list for showing all the components
 - detail view for showing the details of one component 
 - form for adding a new treetop component
 
 Also routing was used for navigating between pages, a compoment-factory for mocking the data and a component-service for simulating the database (get data, push data,..). Data will be gone however after refreshing the page. 
 
-## Modules
+## How to run it
 
-Run `npm install` to get all the dependencies. For this project bootstrap as a style library was used.
+1) Clone repo and run `npm install` to get all the dependencies. For this project bootstrap as a style library was used.
 
-## Development server
+2) Run `ng serve` and navigate to `http://localhost:4200/`. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+3) Run `ng test` to execute the unit tests 
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 # Treetop Challenge 2
 
