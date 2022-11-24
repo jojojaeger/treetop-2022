@@ -8,7 +8,7 @@ It is splitted into four components:
 
 Also routing was used for navigating between pages, a compoment-factory for mocking the data and a component-service for simulating the database (get data, push data,..). Data will be gone however after refreshing the page. 
 
-## MODULES
+## Modules
 
 Run `npm install` to get all the dependencies. For this project bootstrap as a style library was used.
 
