@@ -17,7 +17,11 @@ Also routing was used for navigating between pages, a compoment-factory for mock
 
 2) Run `ng serve` and navigate to `http://localhost:4200/`. 
 
-3) Run `ng test` to execute the unit tests 
+3) Run `ng test` to execute the unit tests
+
+## Demo
+
+https://user-images.githubusercontent.com/65357373/203862874-d13b41eb-3b26-4a60-abcf-d3dd398c15bf.mp4
 
 
 # Treetop Challenge 2
