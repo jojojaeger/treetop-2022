@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterTestingModule } from "@angular/router/testing";
 
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,6 +20,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormComponent
   ],
   imports: [
+    RouterTestingModule,
     BrowserModule,
     NoopAnimationsModule,
     AppRoutingModule,

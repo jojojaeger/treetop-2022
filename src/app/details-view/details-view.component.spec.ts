@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { RouterTestingModule } from "@angular/router/testing";
 import { DetailsViewComponent } from './details-view.component';
 
 describe('DetailsViewComponent', () => {
@@ -8,9 +8,10 @@ describe('DetailsViewComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DetailsViewComponent ]
+      imports: [RouterTestingModule],
+      declarations: [DetailsViewComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
