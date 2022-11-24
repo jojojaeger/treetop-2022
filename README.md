@@ -23,6 +23,12 @@ Also routing was used for navigating between pages, a compoment-factory for mock
 
 https://user-images.githubusercontent.com/65357373/203862874-d13b41eb-3b26-4a60-abcf-d3dd398c15bf.mp4
 
+## Further Improvements:
+
+- add chapters which can contain the components
+- option to edit or delete components
+- improve component picker: clear button and show also the description
+
 
 # Treetop Challenge 2
 
@@ -30,7 +36,9 @@ When adding Treetop rules, the error messages should ideally show up at the same
 
 Example: 
 
-![grafik](https://user-images.githubusercontent.com/65357373/203859844-fe5f6657-37b5-4ec8-b4f2-7af360f2f379.png)
+![grafik](https://user-images.githubusercontent.com/65357373/203865317-2fbb7dc3-6e58-4dbd-8659-a2e630364a32.png)
+
+
 
 
 
