@@ -19,7 +19,7 @@ Also routing was used for navigating between pages, a compoment-factory for mock
 
 ## Demo
 
-https://user-images.githubusercontent.com/65357373/203862874-d13b41eb-3b26-4a60-abcf-d3dd398c15bf.mp4
+https://user-images.githubusercontent.com/65357373/204093590-fc7647e6-6183-4b2f-8e54-3281c0912231.mp4
 
 ## Further Improvements:
 
